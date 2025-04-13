@@ -1118,7 +1118,7 @@ h1, h2, h3, h4 {
 }
 .yard__content-block {
   display: grid;
-  grid-template-columns: 52% 37.3%;
+  grid-template-columns: 52% 37.3%; 
   align-items: center;
   margin: 0 0 120px 0;
   gap: 163px;
