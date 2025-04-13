@@ -1118,11 +1118,11 @@ h1, h2, h3, h4 {
 }
 .yard__content-block {
   display: grid;
-  grid-template-columns: 52% 37.3%; 
+  grid-template-columns: 52% 37.3%;
+  justify-content: center;
   align-items: center;
   margin: 0 0 120px 0;
   gap: 163px;
-  justify-items: center;
 }
 @media (max-width: 1440px) {
   .yard__content-block {
@@ -1613,8 +1613,8 @@ h1, h2, h3, h4 {
   padding: 80px;
 }
 .apartments__item img {
-  border-radius: 0 0 600px 600px;
   width: 100%;
+  border-radius: 0 0 600px 600px;
 }
 .apartments__accent-text {
   font-family: "Tenor Sans", "Arial", sans-serif;
